@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", serif;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header{
+    padding: 24px 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 0 32px;
+}
+
+nav ul a{
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+
+nav ul a:hover{
+    color: #DE2E54;
+}
+
+.header__btn{
+    box-sizing: border-box;
+    border: 2px solid #de2e54;
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 12px 24px;
+
+    color: #de2e54;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.hero{
+    padding-top: 137px;
+    background-image: url('./images/hero_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 217px;
+    margin-bottom: 65px;
+}
+
+.hero__content{
+    position: relative;
+}
+
+.hero__left{
+    display: flex;
+    flex-direction: column;
+    gap: 48px 0;
+}
+
+.hero__left .hero__title{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.hero__btn{
+    border-radius: 8px;
+    background: #de2e54cc;
+    width: fit-content;
+    padding: 12px 24px;
+
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.hero__right{
+    position: absolute;
+    right: 0;
+    top: -86px;
+}
+
+
+.services{
+    padding-bottom: 215px;
+}
+
+.services__title{
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.services__items{
+    display: flex;
+    flex-direction: column;
+    gap: 80px 0;
+    align-items: center;
+}
+
+.services__item{
+    width: 865px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services__subtitle{
+    color: #222222;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 24px;
+}
+
+.services__description{
+    color: #444444;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.contact{
+    padding-top: 65px;
+    padding-bottom: 100px;
+    background: #0eb4c1;
+}
+
+.contact__title{
+    color: #000000;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 77px;
+    text-align: center;
+    margin-bottom: 111px;
+    font-family: "Inter";
+}
+
+.contact__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.iframe{
+    width: 513px;
+    height: 331px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 13px 0;
+    width: 540px;
+    border-radius: 10px;
+    background: #ffffff;
+    padding: 27px 40px 51px 40px;
+}
+
+input{
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    background: #ffffff;
+    outline: none;
+    transition: .3s ease-in-out;
+    padding: 7px 0 7px 32px;
+    height: 40px;
+}
+
+input::placeholder{
+    color: #3d3b48;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    transition: .3s ease-in-out;
+}
+
+input:hover{
+    border: 1px solid #5e54a4;
+    color: #3d3b48;
+}
+
+.form_btn{
+    border-radius: 5px;
+    box-shadow: inset 0px -4px 0px 0px #00000017;
+    background: #38cc8b;
+    padding: 6px 0;
+    text-align: center;
+
+    color: #ffffff;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 1px;
+    border: none;
+}
+
+footer{
+    padding: 24px 0;
+    background: #222222;
+}
+
+footer ul li a{
+    color: #ffffff;
+}
+
+button{
+    cursor: pointer;
+}
